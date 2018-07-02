@@ -8,7 +8,7 @@ class Cmysql < Formula
   version $version
 
   depends_on "pkg-config"
-  depends_on "mysql"
+  depends_on "mariadb"
 
   def install
     system "mkdir pkgconfig"
